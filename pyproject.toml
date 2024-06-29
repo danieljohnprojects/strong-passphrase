@@ -1,0 +1,23 @@
+[project]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+name = "strong-passphrase"
+version = "0.0.1"
+authors = [{ name = "Daniel John", email = "daniel.john.projects@gmail.com" }]
+description = "Generate strong passphrases from the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+strong-passphrase = "strong_passphrase:main"
+
+[project.urls]
+Homepage = "https://home"
+Issues = "https://issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
