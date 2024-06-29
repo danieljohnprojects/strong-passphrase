@@ -15,8 +15,8 @@ requires-python = ">=3.9"
 strong-passphrase = "strong_passphrase:main"
 
 [project.urls]
-Homepage = "https://home"
-Issues = "https://issues"
+Homepage = "https://github.com/danieljohnprojects/strong-passphrase"
+Issues = "https://github.com/danieljohnprojects/strong-passphrase/issues"
 
 [build-system]
 requires = ["hatchling"]
